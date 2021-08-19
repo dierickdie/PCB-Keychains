@@ -1,0 +1,896 @@
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.10-1-10_14)")
+
+  (general
+    (thickness 1.6)
+    (drawings 17)
+    (tracks 0)
+    (zones 0)
+    (modules 61)
+    (nets 1)
+  )
+
+  (page A4)
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user hide)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user hide)
+  )
+
+  (setup
+    (last_trace_width 0.25)
+    (trace_clearance 0.2)
+    (zone_clearance 0)
+    (zone_45_only no)
+    (trace_min 0.2)
+    (via_size 0.8)
+    (via_drill 0.4)
+    (via_min_size 0.4)
+    (via_min_drill 0.3)
+    (uvia_size 0.3)
+    (uvia_drill 0.1)
+    (uvias_allowed no)
+    (uvia_min_size 0.2)
+    (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.15)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.15)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 6 6)
+    (pad_drill 4)
+    (pad_to_mask_clearance 0)
+    (aux_axis_origin 0 0)
+    (grid_origin 12.85875 14.76375)
+    (visible_elements 7FFFFFFF)
+    (pcbplotparams
+      (layerselection 0x010fc_ffffffff)
+      (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
+      (excludeedgelayer true)
+      (linewidth 0.100000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory "Gerber"))
+  )
+
+  (net 0 "")
+
+  (net_class Default "This is the default net class."
+    (clearance 0.2)
+    (trace_width 0.25)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (module random-keyboard-parts:Plate_hole_4mm (layer F.Cu) (tedit 5DBC5A61) (tstamp 611E1E81)
+    (at 34.34605 42.75765)
+    (fp_text reference Ref** (at -0.0127 1.2065) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Plate_hole_4mm (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0.0127 -1.9939) (size 4 4) (drill 4) (layers *.Cu *.Mask))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C08A006)
+    (at 86.27 60.385)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C08A002)
+    (at 81.5075 60.385)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.5U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 4.905 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C089FFE)
+    (at 91.0325 60.385)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.5U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 4.905 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F38)
+    (at 66.2675 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F34)
+    (at 62.4575 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F30)
+    (at 73.8875 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F2C)
+    (at 58.6475 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F28)
+    (at 70.0775 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F24)
+    (at 77.6975 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F20)
+    (at 54.8375 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F1C)
+    (at 51.0275 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F18)
+    (at 81.5075 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089F14)
+    (at 47.2175 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E4E)
+    (at 52.9325 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E4A)
+    (at 83.4125 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E46)
+    (at 45.3125 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E42)
+    (at 75.7925 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E3E)
+    (at 60.5525 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E3A)
+    (at 68.1725 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E36)
+    (at 79.6025 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E32)
+    (at 71.9825 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E2E)
+    (at 49.1225 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E2A)
+    (at 64.3625 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089E26)
+    (at 56.7425 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DB1)
+    (at 82.46 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089DAD)
+    (at 86.27 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D90)
+    (at 67.22 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D8C)
+    (at 78.65 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D88)
+    (at 71.03 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D84)
+    (at 74.84 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D5B)
+    (at 44.36 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D57)
+    (at 55.79 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D53)
+    (at 59.6 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D4F)
+    (at 63.41 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D4B)
+    (at 51.98 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089D47)
+    (at 48.17 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089BB7)
+    (at 69.125 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089BB3)
+    (at 80.555 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089BAF)
+    (at 84.365 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B9F)
+    (at 76.745 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B9B)
+    (at 72.935 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B7F)
+    (at 53.885 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B7B)
+    (at 65.315 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B77)
+    (at 61.505 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B73)
+    (at 57.695 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B63)
+    (at 46.265 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B5F)
+    (at 50.075 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B3D)
+    (at 38.645 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089B5E)
+    (at 42.455 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-2U (layer F.Cu) (tedit 5C08848A) (tstamp 5C089C5D)
+    (at 90.08 45.145)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-2U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 6.81 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C089D46)
+    (at 39.5975 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.5U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 4.905 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C089DE7)
+    (at 91.0325 48.955)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.5U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 4.905 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.75U (layer F.Cu) (tedit 5C08847B) (tstamp 5C089E25)
+    (at 40.07375 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.75U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 5.8575 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-2.25U (layer F.Cu) (tedit 5C088496) (tstamp 5C089EB5)
+    (at 89.60375 52.765)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-2.25U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 7.7625 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-2.25U (layer F.Cu) (tedit 5C088496) (tstamp 5C089EF2)
+    (at 41.02625 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-2.25U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 7.7625 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-2.75U (layer F.Cu) (tedit 5C0884A5) (tstamp 5C089F13)
+    (at 88.65125 56.575)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-2.75U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 9.6675 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C089F99)
+    (at 39.5975 60.385)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.5U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 4.905 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1U (layer F.Cu) (tedit 5C08844F) (tstamp 5C089FBA)
+    (at 44.36 60.385)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 3 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-1.5U (layer F.Cu) (tedit 5C08853F) (tstamp 5C089FDC)
+    (at 49.1225 60.385)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-1.5U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 4.905 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (module locallib:Pad-7U (layer F.Cu) (tedit 5C0884CD) (tstamp 5C089FFD)
+    (at 65.315 60.385)
+    (fp_text reference REF** (at 0 0.5) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pad-7U (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" smd rect (at 0 0) (size 25.86 3) (layers F.Mask)
+      (solder_mask_margin -0.1))
+  )
+
+  (gr_text ope (at 90.85875 60.51375) (layer B.Mask) (tstamp 611995FA)
+    (effects (font (size 1.5 1.5) (thickness 0.375)) (justify mirror))
+  )
+  (gr_text ope (at 90.85875 60.51375) (layer B.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.25)) (justify mirror))
+  )
+  (gr_arc (start 36.35875 62.76375) (end 34.35875 62.76375) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 94.366305 62.781155) (end 94.368804 64.773654) (angle -90.35674946) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 94.35875 42.76375) (end 96.35875 42.76375) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 34.35875 40.76375) (end 38.85875 40.76375) (angle -270) (layer Edge.Cuts) (width 0.15))
+  (dimension 1.905 (width 0.3) (layer Dwgs.User)
+    (gr_text "1.905 mm" (at 146.20875 10.75875) (layer Dwgs.User)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 145.25625 12.85875) (xy 145.25625 12.272329)))
+    (feature2 (pts (xy 147.16125 12.85875) (xy 147.16125 12.272329)))
+    (crossbar (pts (xy 147.16125 12.85875) (xy 145.25625 12.85875)))
+    (arrow1a (pts (xy 145.25625 12.85875) (xy 146.382754 12.272329)))
+    (arrow1b (pts (xy 145.25625 12.85875) (xy 146.382754 13.445171)))
+    (arrow2a (pts (xy 147.16125 12.85875) (xy 146.034746 12.272329)))
+    (arrow2b (pts (xy 147.16125 12.85875) (xy 146.034746 13.445171)))
+  )
+  (dimension 3.81 (width 0.3) (layer Cmts.User) (tstamp 5C090A5E)
+    (gr_text "3.810 mm" (at 8.85375 133.82625 270) (layer Cmts.User) (tstamp 5C090A5E)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 12.85875 135.73125) (xy 10.367329 135.73125)))
+    (feature2 (pts (xy 12.85875 131.92125) (xy 10.367329 131.92125)))
+    (crossbar (pts (xy 10.95375 131.92125) (xy 10.95375 135.73125)))
+    (arrow1a (pts (xy 10.95375 135.73125) (xy 10.367329 134.604746)))
+    (arrow1b (pts (xy 10.95375 135.73125) (xy 11.540171 134.604746)))
+    (arrow2a (pts (xy 10.95375 131.92125) (xy 10.367329 133.047754)))
+    (arrow2b (pts (xy 10.95375 131.92125) (xy 11.540171 133.047754)))
+  )
+  (gr_text "Minnesota Meetup 2021" (at 65.315 52.765) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_line (start 38.85875 40.76375) (end 94.35875 40.76375) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 34.35875 62.76375) (end 34.35875 45.26375) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 94.368804 64.773654) (end 36.35875 64.76375) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 96.35875 42.76375) (end 96.35875 62.76625) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 36.26375 62.76625) (end 36.26375 42.76375) (layer Cmts.User) (width 0.15))
+  (gr_line (start 94.36625 62.76625) (end 36.26375 62.76625) (layer Cmts.User) (width 0.15))
+  (gr_line (start 94.36625 42.76375) (end 94.36625 62.76625) (layer Cmts.User) (width 0.15))
+  (gr_line (start 36.26375 42.76375) (end 94.36625 42.76375) (layer Cmts.User) (width 0.15))
+
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 611E282A) (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 36.74 43.24) (xy 36.74 62.29) (xy 93.89 62.29) (xy 93.89 43.24)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 93.763 62.163) (xy 36.867 62.163) (xy 36.867 43.367) (xy 93.763 43.367)
+      )
+    )
+  )
+)
